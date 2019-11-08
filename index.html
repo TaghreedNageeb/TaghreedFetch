@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="taghreed.css">
+</head>
+
+<body>
+    <div id="container" style="border: none;">
+        <div id="pageTitle" style="border: none; margin-top: 0; ">
+            <h1>Welcome to Posts Page</h1>
+        </div>
+
+        <div id="table">
+            <button id="get">Get Posts</button>
+            <button id="refresh">Refresh</button>
+            <table id="myTable" style="text-align: center;">
+                <thead>
+                    <tr>
+                        <td style="width: 2%; padding: 5px; font-weight: bold;">id</td>
+                        <td style="width: 2%; padding: 5px; font-weight: bold;">userId</td>
+                        <td style="width: 20%; padding: 10px; font-weight: bold;">title</td>
+                        <td style="width: 50%; padding: 10px; font-weight: bold;">body</td>
+
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+
+        <div>
+            <input type="text" id="userId" placeholder="Write User Id" style="width: 10%;">
+            <input type="text" id="title" placeholder="Write Your Title" style="width:40%;"><br>
+            <textarea rows="7" id="body" placeholder="Write Your Post"></textarea><br>
+            <button id="add">Add Post</button><br>
+            <label id="lbl"></label>
+        </div>
+
+        <div>
+            <input type="text" id="id2" placeholder="Write Post's Id" style="width: 11%;">
+            <input type="text" id="userId2" placeholder="Write User Id" style="width: 10%;">
+            <input type=" text " id="title2" placeholder="Write Your Title" style="width:35%;"><br>
+            <textarea rows="7" id="body2" style="width:60%;" placeholder="Write Your Post"></textarea><br>
+            <button id="update">Edit Post</button><br>
+            <label id="lbl2"></label>
+        </div>
+    </div>
+    <script src="taghreed.js "></script>
+</body>
+
+</html>

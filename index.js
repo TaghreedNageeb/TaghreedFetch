@@ -96,7 +96,7 @@ addBtn.addEventListener('click', function() {
     let body1 = document.getElementById('body');
     let title1 = document.getElementById('title');
     let lbl = document.getElementById('lbl');
-    addPost(userId1, body1, body1, lbl);
+    addPost(userId1, title1, body1, lbl);
 })
 
 let editBtn = document.getElementById('update');
